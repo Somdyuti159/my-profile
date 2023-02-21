@@ -101,7 +101,22 @@ a:hover {
   margin-bottom: 40px;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns, each with equal width */
+  grid-gap: 5px; /* spacing between grid items */
+}
 
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-item img {
+  width: 100%; /* make all images the same width */
+  height: 200px; /* maintain aspect ratio */
+}
 
 
 
